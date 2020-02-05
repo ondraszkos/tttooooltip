@@ -1,0 +1,23 @@
+.modal-background {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 998;
+  display: none; }
+  .modal-background.open {
+    display: block; }
+
+.modal {
+  display: none;
+  z-index: 999;
+  background-color: #fff;
+  padding: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+  .modal.open {
+    display: block; }
